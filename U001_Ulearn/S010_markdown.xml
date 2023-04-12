@@ -1,0 +1,39 @@
+<?xml-model href="../ulearn.xsd"?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Урок" id="db5d4ac8-a9b0-4a36-8d94-cbc1d09950ae">
+  <markdown xml:space="preserve">
+Можно использовать TeX: $\Theta(n)$
+
+__Markdown__ разметку `текста`.
+
+Изображения:
+![logo](img/markdown.png)
+
+Список:
+
+1. Элемент раз
+2. Элемент два
+    1. Вложенный нумерованный
+        * вложенный ненумерованный
+
+[Markdown Extra](https://michelf.ca/projects/php-markdown/extra) фичи. 
+
+В частности, простые таблицы:
+
+Header 1				| h2
+-------------		| -------------:
+*Content1*				| 42
+`Content Cell`	| 100500
+  </markdown>
+  <spoiler text="Можно прятать спойлер под кнопку">
+    <markdown>
+       Под спойлером могут быть *любые блоки*.
+    </markdown>
+  </spoiler>
+  <html>
+     Можно вставлять <span style="color:red;font-size:20pt">произвольный HTML</span>
+  </html>
+  <markdown>
+    Можно вставлять видео с youtube:
+  </markdown>
+  <youtube>dYEutOH_dXA</youtube>
+</slide>

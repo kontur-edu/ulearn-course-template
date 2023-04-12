@@ -1,0 +1,6 @@
+<?xml-model href="../ulearn.xsd"?>
+<unit xmlns="https://ulearn.me/schema/v2" title="Введение" id="646DB5D7-267E-4929-A81F-034604A9DAC9" url="Intro">
+  <slides>
+    <add>S*.xml</add>
+  </slides>
+</unit>

@@ -1,0 +1,31 @@
+<?xml-model href="../ulearn.xsd"?>
+<slide.exercise id="f998dd9a-b07e-43fc-a03c-17378755d52d" title="Задача exercise.universal" xmlns="https://ulearn.me/schema/v2">
+  <!-- 
+    в сумме за задачу можно заработать 10 баллов. 
+    2 даются за прохождение тестов.
+    На ревью можно набрать (или потерять) остальные баллы.
+   -->
+  <scoring group="hw" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    exercise.universal сейчас единственный основной способ делать задачи на программирование 
+    остальные способы − legacy
+
+    [Docker-контейнер для JS](https://github.com/kontur-edu/Ulearn/tree/master/sandboxes/js-sandbox/container)
+
+    [Все существующие docker-контейнеры](https://github.com/kontur-edu/Ulearn/tree/master/sandboxes)
+
+    Если нужен новый, делайте pull request.
+
+    Допишите функцию сложения.
+  </markdown>
+  <exercise.universal exerciseDirName="sum" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>true</hideExpectedOutput>
+    <userCodeFile>sum.js</userCodeFile>
+    <includePathForChecker>../TestsRunner</includePathForChecker>
+    <dockerImageName>js-sandbox</dockerImageName>
+    <run>node docker-test-runner.mjs</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

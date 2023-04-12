@@ -1,0 +1,12 @@
+<?xml-model href="ulearn.xsd"?>
+<course xmlns="https://ulearn.me/schema/v2" title="Шаблон курса для ulearn.me">
+  <enableCodeReviewAndQuizManualCheckForEveryone>false</enableCodeReviewAndQuizManualCheckForEveryone>
+  <dictionaryFile>dictionary.txt</dictionaryFile>
+  <defaultLanguage>python3</defaultLanguage>
+  <units>
+    <add>U*/unit.xml</add>
+  </units>
+  <scoring defaultQuiz="hw" defaultExercise="hw" default="hw">
+    <group id="hw" abbr="ДЗ">Домашняя работа</group>
+  </scoring>
+</course>

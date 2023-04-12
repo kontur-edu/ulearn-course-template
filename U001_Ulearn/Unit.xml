@@ -1,0 +1,13 @@
+<?xml-model href="../ulearn.xsd"?>
+<unit xmlns="https://ulearn.me/schema/v2" title="Возможности ulearn" id="d4492182-fe1c-4531-900c-3a509c9e6c16" url="Features">
+  <scoring defaultExercise="hw">
+    <!-- Для групп баллов можно устанавливать maxAdditionalScore 
+      - это сколько баллов преподаватель может добавить в эту группу вручную.
+      Как правило это нужно для заданий или активностей, оцениваемых вручную вне ulearn.
+     -->
+    <group id="hw" maxAdditionalScore="20"/>
+  </scoring>
+  <slides>
+    <add>S*.xml</add>
+  </slides>
+</unit>
