@@ -7,8 +7,7 @@
    -->
   <scoring group="hw" passedTestsScore="2" codeReviewScore="8"/>
   <markdown>
-    exercise.universal сейчас единственный основной способ делать задачи на программирование 
-    остальные способы − legacy
+    [exercise.universal](https://docs.google.com/document/d/1eiqZDVyKCA9PtLAMAOG6vCgWBT3EU2zCGKbjUUHdvig/edit#heading=h.dqrp3t3whfdv) − основной способ делать задачи на программирование для фиксированного языка программирования.
 
     [Docker-контейнер для JS](https://github.com/kontur-edu/Ulearn/tree/master/sandboxes/js-sandbox/container)
 
@@ -16,6 +15,8 @@
 
     Если нужен новый, делайте pull request.
 
+	## Задача
+	
     Допишите функцию сложения.
   </markdown>
   <exercise.universal exerciseDirName="sum" noStudentZip="true">

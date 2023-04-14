@@ -49,11 +49,11 @@
     #### Комфортная работа с XML
 
     Редактировать xml просто, благодаря наличию XSD-схемы для всех XML-файлов курса.
-    Актуальную схему можно скачать по адресу: https://ulearn.me/schema/v2
+    Актуальную схему можно скачать по адресу: [https://ulearn.me/schema/v2](https://ulearn.me/schema/v2)
     Если правильно подключить схему, и настроить ваш текстовый редактор, то он начнет 
     на лету проверять корректность вашего XML, подсказывать, какие теги и атрибуты предусмотрены форматом 
     и даже показывать документацию.
-    Например, так будет делать VS Code с установленным расширением [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+    Например, так будет делать VS Code с установленным [расширением XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
     при редактировании этого курса.
 
     #### Идентификаторы
@@ -61,8 +61,8 @@
     Во время работы над курсом, много где будут требоваться уникальные идентификаторы.
     Например, такой должен быть у каждого слайда. 
     Эти идентификаторы удобно генерировать, с помощью инструментов вашего редактора кода.
-    Например, для VS Code мы рекомендуем установить расширение
-    [guid](https://marketplace.visualstudio.com/items?itemName=kosunix.guid), 
+    Например, для VS Code мы рекомендуем установить [расширение
+    guid](https://marketplace.visualstudio.com/items?itemName=kosunix.guid), 
     которое даст вам горячую клавишу `Ctrl+Shift+[` для вставки нового уникального идентификатора.
     
     По этим идентификатора ulearn узнает слайды и, например, 
@@ -72,12 +72,19 @@
     В этом случае этот ulearn начнет показывать этот слайд студентам как ещё не посещённый или нерешённый, 
     если это задача или тест.
 
-    ## Ссылки
-
+    ### Если что-то не получается?
+	
+	Вступите в [Telegram чат для авторов курсов на ulearn](https://t.me/ulearnAuthors). 
+	Там можно задавать вопросы и делиться проблеммами.
+	Либо можно написать свой вопрос на [support@ulearn.me](mailto:support@ulearn.me).
+	
+	## Ссылки
+	
     * [Документация для авторов курсов](https://docs.google.com/document/d/1eiqZDVyKCA9PtLAMAOG6vCgWBT3EU2zCGKbjUUHdvig/edit#heading=h.5wpo12hkebd3)
     * [github-репозиторий этого курса](https://github.com/kontur-edu/ulearn-course-template).
     * [Рекомендуемый редактор Visual Studio Code](https://code.visualstudio.com/)
     * [Рекомендуемое расширение XML для VS Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
     * [Рекомендуемое расширение guid для VS Code](https://marketplace.visualstudio.com/items?itemName=kosunix.guid)
+	* [Telegram чат для авторов курсов](https://t.me/ulearnAuthors)
   </markdown>
 </slide>
