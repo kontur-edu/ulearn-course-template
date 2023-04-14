@@ -74,17 +74,17 @@
 
     ### Если что-то не получается?
 	
-	Вступите в [Telegram чат для авторов курсов на ulearn](https://t.me/ulearnAuthors). 
-	Там можно задавать вопросы и делиться проблеммами.
-	Либо можно написать свой вопрос на [support@ulearn.me](mailto:support@ulearn.me).
-	
-	## Ссылки
+    Вступите в [Telegram чат для авторов курсов на ulearn](https://t.me/ulearnAuthors). 
+    Там можно задавать вопросы и делиться проблеммами.
+    Либо можно написать свой вопрос на [support@ulearn.me](mailto:support@ulearn.me).
+    
+    ## Ссылки
 	
     * [Документация для авторов курсов](https://docs.google.com/document/d/1eiqZDVyKCA9PtLAMAOG6vCgWBT3EU2zCGKbjUUHdvig/edit#heading=h.5wpo12hkebd3)
     * [github-репозиторий этого курса](https://github.com/kontur-edu/ulearn-course-template).
     * [Рекомендуемый редактор Visual Studio Code](https://code.visualstudio.com/)
     * [Рекомендуемое расширение XML для VS Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
-    * [Рекомендуемое расширение guid для VS Code](https://marketplace.visualstudio.com/items?itemName=kosunix.guid)
-	* [Telegram чат для авторов курсов](https://t.me/ulearnAuthors)
+    * [Рекомендуемое расширение guid для VS Code](https://marketplace.visualstudio.com/items?itemName=kosunix.guid) 
+    * [Telegram чат для авторов курсов](https://t.me/ulearnAuthors)
   </markdown>
 </slide>
